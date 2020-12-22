@@ -70,7 +70,7 @@ dependencies {
     // Core with Ktx
     implementation "androidx.core:core-ktx:$version_core"
 
-    // Moshi
+    // Moshi - Json to Kotlin Object Converter
     implementation "com.squareup.moshi:moshi:$version_moshi"
     implementation "com.squareup.moshi:moshi-kotlin:$version_moshi"
 
@@ -93,4 +93,5 @@ dependencies {
     // Retrofit
     implementation "com.squareup.retrofit2:retrofit: $version_retrofit" //Retrofitnya
     implementation "com.squareup.retrofit2:converter-scalars:$version_retrofit" //object converter json to kotlin object
+    implementation "com.squareup.retrofit2:converter-moshi:$version_retrofit" //Retrofit Moshi Converter
 }
